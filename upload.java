@@ -6,13 +6,7 @@ import java.util.List;
 import pz.jar.unite.supervo.BaseVo;
 
 public class FileUploadStates extends BaseVo{
-    /**
-     * fileUploadStates.java
-     * @author pz_Shaoping Wang@pz studio
-     * @link phone:15825319124 QQ:404364690 E-mail:shaoping316@163.com
-     *       下午04:04:20 @ 2011
-     */
-   
+
     private String uploadAddr; //上传用户Ip地址
    
     private List<String> uploadFileUrlList = new ArrayList<String>(); // 上传文件URL列表
